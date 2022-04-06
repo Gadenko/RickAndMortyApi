@@ -10,6 +10,7 @@ import java.util.List;
 @Data
 public class RMCharacterInfo {
 
-    private List<RMCharacter> result;
+    private List<RMCharacter> results;
+
 
 }

@@ -28,8 +28,8 @@ public class ApiService {
                 .block()
                 .getBody();
 
-        List<RMCharacter> character = charactersInfo.getResult();
-        return character;
+
+        return charactersInfo.getResults();
     }
 
 }
